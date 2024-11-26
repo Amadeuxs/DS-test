@@ -1,64 +1,129 @@
 {
   "brand": {
-    "primary black": {
-      "description": "",
-      "type": "color",
-      "value": "{foundation.color.black.900}"
-    },
-    "container": {
-      "card": {
+    "light": {
+      "primary black": {
+        "description": "",
+        "type": "color",
+        "value": "{foundation.light.color.black.900}"
+      },
+      "container": {
+        "card": {
+          "bg": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.black.0}"
+          },
+          "textcolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.black.900}"
+          },
+          "cornerradius": {
+            "description": "",
+            "type": "dimension",
+            "value": "{foundation.light.numbersystem.1}"
+          },
+          "iconcolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.purple.900}"
+          },
+          "bg secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.yellow.50}"
+          },
+          "iconcolor secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.purple.900}"
+          },
+          "textcolor secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.black.900}"
+          },
+          "titlecolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.purple.900}"
+          },
+          "titlecolor hover": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.light.color.purple.1000}"
+          }
+        }
+      },
+      "canvas": {
         "bg": {
           "description": "",
           "type": "color",
-          "value": "{foundation.color.pink.1000}"
-        },
-        "textcolor": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.black.0}"
-        },
-        "cornerradius": {
-          "description": "",
-          "type": "dimension",
-          "value": "{foundation.numbersystem.1}"
-        },
-        "iconcolor": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.purple.100}"
-        },
-        "bg secondary": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.black.800}"
-        },
-        "iconcolor secondary": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.purple.50}"
-        },
-        "textcolor secondary": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.black.0}"
-        },
-        "titlecolor": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.black.0}"
-        },
-        "titlecolor hover": {
-          "description": "",
-          "type": "color",
-          "value": "{foundation.color.black.0}"
+          "value": "{foundation.light.color.black.50}"
         }
       }
     },
-    "canvas": {
-      "bg": {
+    "dark": {
+      "primary black": {
         "description": "",
         "type": "color",
-        "value": "{foundation.color.black.1000}"
+        "value": "{foundation.dark.color.black.900}"
+      },
+      "container": {
+        "card": {
+          "bg": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.pink.1000}"
+          },
+          "textcolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.black.0}"
+          },
+          "cornerradius": {
+            "description": "",
+            "type": "dimension",
+            "value": "{foundation.dark.numbersystem.1}"
+          },
+          "iconcolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.purple.100}"
+          },
+          "bg secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.black.800}"
+          },
+          "iconcolor secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.purple.50}"
+          },
+          "textcolor secondary": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.black.0}"
+          },
+          "titlecolor": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.black.0}"
+          },
+          "titlecolor hover": {
+            "description": "",
+            "type": "color",
+            "value": "{foundation.dark.color.black.0}"
+          }
+        }
+      },
+      "canvas": {
+        "bg": {
+          "description": "",
+          "type": "color",
+          "value": "{foundation.dark.color.black.1000}"
+        }
       }
     }
   },
