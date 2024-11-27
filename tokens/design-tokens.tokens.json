@@ -74,7 +74,7 @@
           "bg": {
             "description": "",
             "type": "color",
-            "value": "{foundation.dark.color.pink.1000}"
+            "value": "{foundation.dark.color.black.900}"
           },
           "textcolor": {
             "description": "",
