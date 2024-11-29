@@ -31,7 +31,7 @@
           "bg secondary": {
             "description": "",
             "type": "color",
-            "value": "{foundation.light.color.yellow.50}"
+            "value": "{foundation.light.color.blue.50}"
           },
           "iconcolor secondary": {
             "description": "",
