@@ -9,6 +9,34 @@
       }
     }
   },
+  "grid": {
+    "grid": {
+      "grid-s": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "grid",
+          "sectionSize": 8
+        }
+      },
+      "grid-m": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "grid",
+          "sectionSize": 16
+        }
+      },
+      "grid-l": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "grid",
+          "sectionSize": 24
+        }
+      }
+    }
+  },
   "font": {
     "typography": {
       "h1": {
