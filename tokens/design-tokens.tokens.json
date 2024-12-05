@@ -1,1 +1,42 @@
-{"variables":{"global":{"white":{"white_1":{"type":"color","value":"#ffffffff","blendMode":"normal","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Global","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:3","exportKey":"variables"}}},"white_2":{"type":"color","value":"#adadadff","blendMode":"normal","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Global","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:4","exportKey":"variables"}}}},"blue":{"blue_1":{"type":"color","value":"#566fffff","blendMode":"normal","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Global","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:6","exportKey":"variables"}}},"blue_2":{"type":"color","value":"#394bf0ff","blendMode":"normal","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Global","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:7","exportKey":"variables"}}}}},"components":{"buttonbg":{"description":"","type":"color","value":"{global.mode 1.blue.blue_2}","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Components","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:11","exportKey":"variables"}}},"buttonlabel":{"description":"","type":"color","value":"{global.mode 1.white.white_1}","extensions":{"org.lukasoppermann.figmaDesignTokens":{"mode":"Mode 1","collection":"Components","scopes":["ALL_SCOPES"],"variableId":"VariableID:1:12","exportKey":"variables"}}}}}}
+{
+  "variables": {
+    "global": {
+      "white": {
+        "white_1": {
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal"
+        },
+        "white_2": {
+          "type": "color",
+          "value": "#adadadff",
+          "blendMode": "normal"
+        }
+      },
+      "blue": {
+        "blue_1": {
+          "type": "color",
+          "value": "#566fffff",
+          "blendMode": "normal"
+        },
+        "blue_2": {
+          "type": "color",
+          "value": "#394bf0ff",
+          "blendMode": "normal"
+        }
+      }
+    },
+    "components": {
+      "buttonbg": {
+        "description": "",
+        "type": "color",
+        "value": "{global.mode 1.blue.blue_2}"
+      },
+      "buttonlabel": {
+        "description": "",
+        "type": "color",
+        "value": "{global.mode 1.white.white_1}"
+      }
+    }
+  }
+}
